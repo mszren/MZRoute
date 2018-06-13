@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MZRoute/Classes/**/*'
+  s.source_files = 'MZRoute/*.{h,m}'
   
   # s.resource_bundles = {
   #   'MZRoute' => ['MZRoute/Assets/*.png']
