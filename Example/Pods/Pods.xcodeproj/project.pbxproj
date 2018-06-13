@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17AF1FBF20D12FA5002EC5A4 /* HomePageModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */; };
+		17AF1FC020D12FA5002EC5A4 /* HomePageModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */; };
 		296DD579E2F35368D1FC43A6F477453C /* Pods-MZRoute_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 885BA544D8503DA995AF99CE1BB107FD /* Pods-MZRoute_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B89EBDD36EA64A49BEEDE96118DE6F1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC614C986C5699A659EA9BF85C17918 /* ReplaceMe.m */; };
 		570781FDBC5211CFD57F019D96593746 /* MZRoute-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEE54743B2C023DA515EEE180C565E /* MZRoute-dummy.m */; };
 		5BC3514E02C8D92590D68B91E622DF23 /* Pods-MZRoute_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB1C0694A2C169099ACEBC46210C941 /* Pods-MZRoute_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		937235C5248E1BEB3C3D6326E02CAB57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -31,38 +32,39 @@
 
 /* Begin PBXFileReference section */
 		024D44CF710C38ED0225276EAED266FB /* Pods-MZRoute_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZRoute_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		05E0B21D2C144CF786CF2D070272E1E2 /* MZRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MZRoute.framework; path = MZRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E0B21D2C144CF786CF2D070272E1E2 /* MZRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		134F41A9756A7BAC3EB9D6ADB3180550 /* MZRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZRoute-prefix.pch"; sourceTree = "<group>"; };
+		17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageModule.m; sourceTree = "<group>"; };
+		17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageModule.h; sourceTree = "<group>"; };
 		1C5388BD4F06EE05D4718AA5D7D674FA /* Pods-MZRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZRoute_Example-dummy.m"; sourceTree = "<group>"; };
 		35B4AD949E3AFB6A38A48E1E84B5114A /* Pods-MZRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		372A671C3F61F2DBCA539E6B07C44F45 /* Pods-MZRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C06EB6493840E1AC3FA84CE6B73DD5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C06EB6493840E1AC3FA84CE6B73DD5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		54A1904F7675AE0981A6F25AE87120F3 /* Pods-MZRoute_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZRoute_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5512D468FEA4623354F6962630795532 /* Pods-MZRoute_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZRoute_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6016789DE3BB5A155E85BDB13EBBD3E5 /* Pods-MZRoute_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZRoute_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6617050E993F541B3BB1721B28F99B6E /* MZRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MZRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6617050E993F541B3BB1721B28F99B6E /* MZRoute.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MZRoute.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6BED5741C80E9925054EE26D68D6031C /* MZRoute-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZRoute-umbrella.h"; sourceTree = "<group>"; };
 		71CD040011BBAD51ABC4617DC97BCCA4 /* Pods-MZRoute_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZRoute_Example-resources.sh"; sourceTree = "<group>"; };
 		7C396D06157C78905684C10078B54845 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAE5B5EF96176696113696C78191BB2 /* Pods-MZRoute_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZRoute_Tests-resources.sh"; sourceTree = "<group>"; };
 		7D55AC3A008EDCCDED084D3F97B934E0 /* Pods-MZRoute_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZRoute_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7E8142C6E1AC8988B98ADC61D0D0CC52 /* Pods_MZRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZRoute_Example.framework; path = "Pods-MZRoute_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8142C6E1AC8988B98ADC61D0D0CC52 /* Pods_MZRoute_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZRoute_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		877802A7A8E8BD59703364AA4EE1A5FF /* Pods-MZRoute_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZRoute_Tests-dummy.m"; sourceTree = "<group>"; };
 		885BA544D8503DA995AF99CE1BB107FD /* Pods-MZRoute_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZRoute_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8FB1C0694A2C169099ACEBC46210C941 /* Pods-MZRoute_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZRoute_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9559BD384C9D38B26FA03819F72F2B50 /* MZRoute.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZRoute.xcconfig; sourceTree = "<group>"; };
 		A9CD292C020604B9153F081879CFBEC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC9B8F25C694A32EEF7F6834859BB294 /* Pods-MZRoute_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZRoute_Example.modulemap"; sourceTree = "<group>"; };
 		AEAD39CC5CF77AFEE50395CB6309A308 /* Pods-MZRoute_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZRoute_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CB61CFC3BD43663779BC34052DBAA91B /* Pods_MZRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MZRoute_Tests.framework; path = "Pods-MZRoute_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB61CFC3BD43663779BC34052DBAA91B /* Pods_MZRoute_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZRoute_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE918DDB822CE1D6BC5D421297B78CE6 /* Pods-MZRoute_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZRoute_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CEC5F4C68DD314C087F444139F8720FC /* Pods-MZRoute_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZRoute_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCCC43F0195D2985F24D997DC3227DD4 /* MZRoute.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MZRoute.modulemap; sourceTree = "<group>"; };
-		DEC614C986C5699A659EA9BF85C17918 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MZRoute/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E062AF8AAFFFE7C73022235D7AFE2B23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F225E090CF2AD68A7D35A12C98DF83A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F225E090CF2AD68A7D35A12C98DF83A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F5BEE54743B2C023DA515EEE180C565E /* MZRoute-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZRoute-dummy.m"; sourceTree = "<group>"; };
 		F7783ADB83309A6C9E642D954C82C021 /* Pods-MZRoute_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MZRoute_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,8 @@
 		6E7DEFD69E519197D48BD97DD1382225 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */,
+				17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */,
 				F225E090CF2AD68A7D35A12C98DF83A7 /* LICENSE */,
 				6617050E993F541B3BB1721B28F99B6E /* MZRoute.podspec */,
 				3C06EB6493840E1AC3FA84CE6B73DD5B /* README.md */,
@@ -169,7 +173,6 @@
 		A2F4F79DEB5914F54D8676C432BB5F61 /* MZRoute */ = {
 			isa = PBXGroup;
 			children = (
-				DEC614C986C5699A659EA9BF85C17918 /* ReplaceMe.m */,
 				6E7DEFD69E519197D48BD97DD1382225 /* Pod */,
 				4F9683791041316B56318C5EE5E753F4 /* Support Files */,
 			);
@@ -227,6 +230,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AF1FC020D12FA5002EC5A4 /* HomePageModule.h in Headers */,
 				EF84737FBBA9F622E87FE24D1E1BF2DD /* MZRoute-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				570781FDBC5211CFD57F019D96593746 /* MZRoute-dummy.m in Sources */,
-				4B89EBDD36EA64A49BEEDE96118DE6F1 /* ReplaceMe.m in Sources */,
+				17AF1FBF20D12FA5002EC5A4 /* HomePageModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
