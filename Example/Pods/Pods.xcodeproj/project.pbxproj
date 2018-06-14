@@ -36,6 +36,7 @@
 		134F41A9756A7BAC3EB9D6ADB3180550 /* MZRoute-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZRoute-prefix.pch"; sourceTree = "<group>"; };
 		17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageModule.m; sourceTree = "<group>"; };
 		17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageModule.h; sourceTree = "<group>"; };
+		17AF1FC220D203AE002EC5A4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		1C5388BD4F06EE05D4718AA5D7D674FA /* Pods-MZRoute_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZRoute_Example-dummy.m"; sourceTree = "<group>"; };
 		35B4AD949E3AFB6A38A48E1E84B5114A /* Pods-MZRoute_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZRoute_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		372A671C3F61F2DBCA539E6B07C44F45 /* Pods-MZRoute_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZRoute_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +124,16 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		17AF1FC120D203AE002EC5A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */,
+				17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */,
+			);
+			name = Classes;
+			path = MZRoute/Classes;
+			sourceTree = "<group>";
+		};
 		4F9683791041316B56318C5EE5E753F4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,11 +161,11 @@
 		6E7DEFD69E519197D48BD97DD1382225 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				17AF1FBE20D12FA5002EC5A4 /* HomePageModule.h */,
-				17AF1FBD20D12FA5002EC5A4 /* HomePageModule.m */,
+				17AF1FC120D203AE002EC5A4 /* Classes */,
 				F225E090CF2AD68A7D35A12C98DF83A7 /* LICENSE */,
 				6617050E993F541B3BB1721B28F99B6E /* MZRoute.podspec */,
 				3C06EB6493840E1AC3FA84CE6B73DD5B /* README.md */,
+				17AF1FC220D203AE002EC5A4 /* .gitkeep */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
